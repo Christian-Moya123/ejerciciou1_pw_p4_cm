@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/default.css">
+    <script src="../js/index.js"></script>
+    <title>Juego P</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="negro" id="idtextoinicial">Seleccione el Pokémon correcto
+                
+            </div>
+            <div><img id="idimagen" src="../img/pnegro.jpg" alt="imagen inicio"></div>
+            <div>
+                <button id="btnkeldeo" onclick="verificarOpcion(this.id)">keldeo-ordinary</button>
+            </div>
+            <div>
+                <button id="btndrilbur" onclick="verificarOpcion(this.id)">drilbur</button>
+            </div>
+            <div>
+                <button id="btnninjask" onclick="verificarOpcion(this.id)">ninjask</button>
+            </div>
+            <div>
+                <button id="btnexcadrill" onclick="verificarOpcion(this.id)">excadrill</button>
+            </div>
+            <div id="divmensaje">
+                <h3 onclick="seleccionarOpcion()"></h3>
+                <p>Intentos: <span id="intentos"></span></p>
+                <p>Puntaje: <span id="puntaje"></span></p>
+            </div>
+            <div>
+                <button onclick="resetearJuego()">Resetear</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
